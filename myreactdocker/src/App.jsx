@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   const connNode = () => {
-    fetch('http://10.0.20.6:3001')
+    fetch('/api')
     .then(()=>{
       alert('success')
     })
